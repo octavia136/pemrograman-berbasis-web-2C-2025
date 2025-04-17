@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Pia Cafe</title>
+    <style>
+
+    body {
+    background-color: #DAA520; 
+    font-family: 'Playfair Display', serif;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #4e342e; 
+    text-shadow: 2px 2px 5px rgba(188, 221, 103, 0.2); 
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #d6e1b6; 
+    font-family: 'Playfair Display', serif;
+    overflow: hidden;
+    border-radius: 30px;
+    text-align: center;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #d6e1b6;
+    transform: scale(0.8);
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    background-color: #d6e1b6;
+}
+
+.contact-info {
+    background-color: #f1e0b5; 
+    font-family: 'Playfair Display', serif;
+    padding: 5px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    color: #4e342e;
+    margin: 9px 0;
+}
+
+.contact-form {
+    background-color: #fff3e0; 
+    font-family: 'Playfair Display', serif;
+    padding: 25px;
+    border-radius: 35px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.contact-form h3 {
+    font-size: 1.8rem;
+    color: #4e342e;
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    display: block;
+    text-align: left;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: #4e342e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.contact-form button:hover {
+    background-color: #3e2723; 
+    transform: scale(1.05);
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hubungi Pia Cafe</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About Us</a>
+        <a href="kontak.html">Contact</a>
+        <a href="pesan.html">Pesan</a>
+    </nav>
+    <div class="content">
+        <h2>Kontak Kami</h2>
+        <div class="contact-info">
+            <p><strong>Alamat:</strong> Jl. Melati, Kamal, Bangkalan</p>
+            <p><strong>Telepon:</strong> 0878-4358-6330</p>
+            <p><strong>Email:</strong> piacafe@mail.com</p>
+            <p><strong>Instagram:</strong> @piacafe.id</p>
+        </div>
+
+        <div class="contact-form">
+            <h3>Kirim Pesan</h3>
+            <form action="#" method="post">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" name="pesan" rows="5" required></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
